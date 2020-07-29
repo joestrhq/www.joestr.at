@@ -10,13 +10,32 @@
     <title>joestr.at | Legal (German)</title>
     <link rel="canonical" href="https://www.joestr.at"/>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn-files.joestr.at/bootstrap_4.5.0/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="../assets/css/custom.css" rel="stylesheet"/>
-    <link href="https://cdn-files.joestr.at/fontawesome-free_web_5.13.0/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn-files.joestr.at/bootstrap_4.5.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/custom.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn-files.joestr.at/fontawesome-free_web_5.13.0/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn-files.joestr.at/cookieconsent_3.1.1/cookieconsent.min.css" />
     <!-- JavaScript -->
     <script src="https://cdn-files.joestr.at/jquery_3.5.1/jquery.min.js"></script>
     <script src="https://cdn-files.joestr.at/popper.js_1.16.0/popper.min.js"></script>
     <script src="https://cdn-files.joestr.at/bootstrap_4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn-files.joestr.at/cookieconsent_3.1.1/cookieconsent.min.js"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#edeff5",
+          "text": "#838391"
+        },
+        "button": {
+          "background": "#4b81e8"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "href": "https://www.joestr.at/legal/index.html"
+      }
+    });
+    </script>
   </head>
   <body class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -449,5 +468,6 @@
             </script>
         </div>
     </footer>
+    <script src="../assets/js/custom_cookieconsent.js"></script>
 	</body>
 </html>
