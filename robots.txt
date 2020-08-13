@@ -1,0 +1,4 @@
+Sitemap: https://www.joestr.at/sitemap.xml
+
+User-agent: *
+Disallow: /assets/
